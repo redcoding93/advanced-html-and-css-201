@@ -1,0 +1,1 @@
+This repo is meant to hold all of the work and examples that I have created based on the Shay Howe advanced tutorials. Each section has a HTML markups and styling that demonstrate my understanding of each tutorial.
