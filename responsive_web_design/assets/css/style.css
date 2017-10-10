@@ -1,0 +1,73 @@
+body{
+  background-color: #88BDBC;
+}
+.container {
+  width: 538px;
+}
+section,
+aside {
+  margin: 10px;
+}
+section {
+  float: left;
+  width: 340px;
+  background-color: #254E58;
+  color: white;
+}
+aside {
+  float: right;
+  width: 158px;
+  background-color: #112D32;
+  color: white;
+}
+section,
+aside {
+  margin: 1.858736059%;
+
+}
+.speaker img, .venue img, .schedule img {
+  width: 50%;
+  display: inline-block;
+}
+.speaker,.schedule, .venue {
+  width: 25%;
+  margin-left: 40px;
+  padding-left: 40px;
+  margin-bottom: 30px;
+}
+figure {
+  height: 0;
+  padding-bottom: 56.25%;
+  position: relative;
+  width: 50%;
+}
+iframe {
+  height: 50%;
+  margin-top: 30px;
+  left: 0;
+  position: absolute;
+  bottom: 0;
+  width: 80%;
+}
+
+@media all and (min-width: 420px) {
+  .container {
+    max-width: 538px;
+  }
+  section {
+
+    width: 63.197026%;
+  }
+  aside {
+
+    width: 29.3680297%;
+  }
+}
+
+
+@media all and (max-width: 420px) {
+  section, aside {
+    float: none;
+    width: auto;
+  }
+}

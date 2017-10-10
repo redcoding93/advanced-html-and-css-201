@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Complex Selectors</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400" rel="stylesheet">
+  </head>
+  <body>
+    <!-- Beginning Drop Down Menu -->
+    <!-- Sibling Selectors -->
+    <input type="checkbox" id="toggle">
+<label for="toggle">&#9776;</label>
+<nav>
+  <ul>
+     <li><a href="#">Home</a></li>
+     <li><a href="#">About</a></li>
+     <li><a href="#">Services</a></li>
+     <li><a href="#">Contact</a></li>
+  </ul>
+</nav>
+<!-- Sibling Selectors -->
+<!-- End of Drop Down Menu -->
+
+<!-- Basic Styles -->
+  <section id="intro">
+    <h1>Vanessa </h1>
+    <h2 class="tagline">Ingram</h2>
+    <a href="assets/Vanessa.Ingram Master Resume.pdf">My resume, just because I'm amazing.
+      Tell your friends.</a>
+    <a href="/login.php">Login Here</a>
+  </section>
+  <!-- Basic Styles -->
+
+  <h2>Headings</h2>
+  <a href="http:youtube.com" rel="tag nofollow">Cat Videos</a>
+<div class="list">
+<ul>
+  <li>list 1</li>
+  <li>list 2</li>
+  <li>list 3</li>
+</ul>
+</div>
+<!-- Child Selectors -->
+  <article>
+    <h2>This is heading 1</h2>
+    <a href="http:dictionary.com" lang="en-US">Learn something useful</a>
+    <div>
+    <h2>This is heading 2</h2>
+    <table>
+ <thead>
+   <tr>
+     <th>Number</th>
+     <th>Player</th>
+     <th>Position</th>
+     <th>Height</th>
+     <th>Weight</th>
+   </tr>
+ </thead>
+ <tbody>
+   <tr>
+     <td>8</td>
+     <td>Marco Belinelli</td>
+     <td>G</td>
+     <td>6-5</td>
+     <td>195</td>
+   </tr>
+   <tr>
+     <td>5</td>
+     <td>Carlos Boozer</td>
+     <td>F</td>
+     <td>6-9</td>
+     <td>266</td>
+   </tr>
+
+ </tbody>
+</table>
+
+<!-- Child Selectors -->
+    </div>
+    <!-- General Selectors -->
+  </article>
+       <p>I am selected to become the general of Boom Shakalaka</p>
+  <article>
+    <!-- Direct Selectors -->
+       <p>This paragraph will be selected generally</p>
+    <!-- Direct Selectors -->
+    <div>
+       <p>Bam Boom</p>
+    </div>
+    <p>This is a cool paragraph that is selected by a general selector</p>
+    <a href="#" target="_blank">Click this link to achieve immortality</a>
+  </article>
+  <!-- General Selectors -->
+
+  <section class="adjacent">
+       <p>This paragraph is cool</p>
+    <h2>Actually I am cooler</h2>
+    <!-- Adjacent Selector -->
+       <p>This paragraph will also be styled with an adjacent, general selector</p>
+    <div>
+    <!-- Adjacent General Selector -->
+      <p>This is a paragraph</p>
+   </div>
+      <p>General sibling</p>
+  <!-- General Selectors -->
+  <p>This is an adjacent sibling selector</p>
+  <a href="https://chase.com/">For the same answers without people watching,
+    click here</a>
+
+  </section>
+
+  <section class="adjacent">
+      <p>I'm an adjacent selector too</p>
+      <h2>My name is aj: adjacent selector</h2>
+      <p>This paragraph will be selected</p>
+      <a href="http://google.com/">If immortality is not acheived, search for
+      answers here.</a>
+      <div>
+        <p>I'm the other adjacent selector</p>
+      </div>
+      <p>Yup</p>
+     </section>
+
+   <div class="footer">
+     <ul>
+       <li><a href="#">Home</a></li>
+       <li><a href="#">About</a></li>
+       <li><a href="#">Services</a></li>
+       <li><a href="#">Contact</a></li>
+    </ul>
+   </div>
+  </body>
+</html>
